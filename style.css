@@ -1,0 +1,40 @@
+@font-face {
+    font-family: "myFont";
+    src: url("myFont.woff2");
+  }
+  @media screen and (min-width: 480px) {
+    #leftsidebar {width: 200px; float: left;}
+    #main {margin-left: 216px;}
+  }
+body{ 
+    
+    color: blue;
+    font-size: 14px;  
+    height: 80px; 
+    line-height: 80px;
+    margin: 0;  
+}
+
+a[target] {
+    background-color: yellow;
+}
+
+.pictures{
+    display: flex;
+    display: inline;
+    margin:  25px 50px 74px 100px;
+    padding: 25px 50px 74px 100px;
+}
+
+.audio{
+    margin-top :80px;
+    display: block;
+    
+}
+
+.topics{
+    font-family: "myFont", "Bitstream Vera Serif", serif;
+    font-size: lem;
+    border-style: solid;
+    border-color : rgb(125,40, 10)
+}
